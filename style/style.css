@@ -1,6 +1,10 @@
 *{
     margin:0;
     font-family: Roboto;
+
+}
+body{
+    overflow-x: hidden;
 }
 ul>li{
     list-style: none;
@@ -40,7 +44,7 @@ nav{
 .hero-content{
     display: flex;
     justify-content: space-around;
-   
+    
 }
 .hero-first{
     display: flex;
@@ -79,5 +83,46 @@ nav{
     background-color: #f1f1f1;
     padding:30px;
     border-radius: 15px;
+
+}
+
+.img-container{
+    margin-left: 160px;
+}
+.review-container{
+    display: flex;
+    
+}
+.review{
+    margin-top: 40px;
+}
+.review-card{
+    margin-top: 32px;
+    display: flex;
+    gap:20px;
+}
+
+.discount-container{
+    background-image: url('../images/13.png');
+    background-size: contain;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: bottom 80px;
+}
+.footer-container{
+    margin-top:80px;
+    background-image: url("../images/bg-image.png");
+    height: 489px;
+    background-size: cover;
+}
+.footer-content{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
